@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+    <string name="born_and_raised_in_west_newbury_massachusetts">Born and raised in West Newbury, Massachusetts.</string>
+    <string name="click_on_the_card_view_to_open_profile">Click on the card view to open Profile</string>
+    <string name="this_is_item_text_connection_to_the">this is item text , connection to the...</string>
+    <string name="continu">Continue</string>
+    <string name="cancel">Cancel</string>
+</resources>

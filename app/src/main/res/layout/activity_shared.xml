@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedActivity">
+    <ImageView
+        android:transitionName="imageTransition"
+        android:id="@+id/shared_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/images"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:transitionName="nameTransition"
+        android:id="@+id/shared_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shared_image"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="10dp"
+        android:text="Jhon Cena"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+    <TextView
+        android:transitionName="descTransition"
+        android:id="@+id/shared_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shared_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="90dp"
+        android:text="@string/born_and_raised_in_west_newbury_massachusetts"
+        android:textAlignment="center"
+        android:textSize="13sp"/>
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="@string/continu"
+        android:background="@drawable/btn_shape"
+        android:layout_marginTop="100dp"
+        android:textAllCaps="false"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/shared_desc"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btn_cancel"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:text="@string/cancel"
+        android:background="#EFEEE8"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_continue"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
